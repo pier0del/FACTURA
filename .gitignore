@@ -1,0 +1,15 @@
+# Ignorar todos los archivos en la carpeta .vscode
+.vscode/*
+
+# No ignorar archivos de configuración específicos
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Historial local de Visual Studio Code
+.history/
+
+# Extensiones de VS Code construidas
+*.vsix
